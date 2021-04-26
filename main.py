@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import random
 from words import words
@@ -78,4 +79,4 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         print("\nQuitting...\n")
-        quit()
+        sys.exit()
